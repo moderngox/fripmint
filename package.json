@@ -22,17 +22,15 @@
     "node": ">= 0.6.0",
     "npm": ">= 1.0.0"
   },
-
   "scripts": {
-   "start_dpd": "node node_modules/deployd/bin/dpd"
+    "start_dpd": "node node_modules/deployd/bin/dpd"
   },
-
   "dependencies": {
+    "dpd-fileupload": "0.0.11",
     "express": "~3.4.4"
   },
   "devDependencies": {},
   "bundleDependencies": [],
-
   "private": true,
   "main": "server.js"
 }
