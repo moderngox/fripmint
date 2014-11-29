@@ -1,0 +1,77 @@
+{
+	"type": "Collection",
+	"properties": {
+		"latitude": {
+			"name": "latitude",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "latitude",
+			"order": 0
+		},
+		"longitude": {
+			"name": "longitude",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "longitude",
+			"order": 1
+		},
+		"label": {
+			"name": "label",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "label",
+			"order": 2
+		},
+		"description": {
+			"name": "description",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "description",
+			"order": 3
+		},
+		"rate": {
+			"name": "rate",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "rate",
+			"order": 4
+		},
+		"locationName": {
+			"name": "locationName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "locationName",
+			"order": 5
+		},
+		"image1": {
+			"name": "image1",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "image1",
+			"order": 6
+		},
+		"image2": {
+			"name": "image2",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "image2",
+			"order": 7
+		},
+		"date": {
+			"name": "date",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "date",
+			"order": 8
+		}
+	}
+}
